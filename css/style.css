@@ -1,0 +1,335 @@
+body {
+    width: 1920px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1110px;
+    text-align: center;
+    margin: 0 406px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    min-height: 740px;
+    position: relative;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.age {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+    color: white;
+    padding-top: 110px;
+    margin: 0;
+    word-spacing: 2px;
+}
+
+.bg_text {
+    color: white;
+}
+
+.numbers {
+    position: absolute;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #F7F7F7;
+    width: 1110px;
+}
+
+.number_itm {
+    display: flex;
+    flex-direction: column;
+    padding: 57px 30px;
+}
+
+.number {
+    font-size: 86px;
+    font-weight: 500;
+    color: #F7654A;
+    text-align: center;
+}
+
+p.where {
+    color: #999999;
+}
+
+/* projects */
+.projects {
+    padding-top: 257px;
+}
+
+.projectsItms {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project:nth-child(2) {
+    padding: 0px 15px;
+}
+
+img.project {
+    width: 350px;
+    height: 380px;
+}
+
+.line {
+    background-color: #F7654A;
+    width: 55px;
+    height: 6px;
+    margin: 45px 0px 15px;
+}
+
+.project h3 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #404149;
+}
+
+.project p {
+    font-size: 16px;
+    text-align: left;
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* request */
+.request {
+    background-color: #F7654A;
+    margin-top: 120px;
+    margin-bottom: 150px;
+    height: 181px;
+}
+
+.sides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.text {
+    text-align: left;
+}
+
+.request h2 {
+    color: white;
+    font-size: 48px;
+}
+
+.request h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+button {
+    width: 175px;
+    height: 49px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-width: 0px;
+}
+
+/* service */
+.serv_types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 66px;
+}
+
+.type {
+    background-color: #F7F7F7;
+    width: 350px;
+    height: 250px;
+    margin: 15px;
+}
+
+.type img {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    margin: 0px;
+    font-size: 21px;
+}
+
+/* portfolio */
+
+.portfolio {
+    margin: 150px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* questions */
+.questions h2 {
+    margin-bottom: 50px;
+}
+
+.question_topic {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.tringle {
+    border: 10px solid transparent;
+    border-left: 10px solid #F7654A;
+}
+
+.active.tringle {
+    transform: rotate(90deg);
+    /* поворот стрелки */
+}
+
+.question {
+    color: #F7654A;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.answer {
+    display: none;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 200;
+    color: #999999;
+    font-family: 'Lorem Ipsum', sans-serif;
+}
+
+.answer.active {
+    display: block;
+}
+
+/* partners */
+.partners {
+    background-color: #404149;
+    height: 364px;
+}
+
+.partners h2 {
+    color: white;
+    padding: 100px 0px 60px;
+    margin-top: 150px;
+}
+
+.part_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* reviews */
+.reviews {
+    margin-top: 150px;
+}
+
+.revi_blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.review {
+    width: 350px;
+}
+
+.quotes {
+    background-color: #F7F7F7;
+    padding: 30px;
+    color: #F7654A;
+    font-size: 96px;
+    text-align: left;
+    margin: 0;
+    padding: 0px 30px 30px;
+}
+
+.review p {
+    color: #999999;
+    background-color: #F7F7F7;
+    padding: 30px;
+    text-align: initial;
+    position: relative;
+    top: -100px;
+}
+
+.reviews h4 {
+    margin-top: -60px;
+    font-size: 21px;
+}
+
+.company {
+    color: #F7654A;
+}
+
+/*contacts*/
+
+.contact_data {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.contact_data h2 {
+    font-size: 24px;
+}
+
+
+footer {
+    margin-top: 150px;
+    background-color: #404149;
+    height: 82px;
+}
+
+.create {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.create p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
